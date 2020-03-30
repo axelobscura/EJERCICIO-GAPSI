@@ -2,9 +2,9 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+import data from './data/data.json';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Products from './components/Products/Products';
@@ -17,10 +17,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Home version={data.info.name}/>
           </Route>
           <Route exact path="/productos">
-            <Products />
+            <Products data={data} />
           </Route>
         </Switch>
       </div>
