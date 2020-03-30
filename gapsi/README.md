@@ -1,8 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+EXAMEN PRÁCTICO
+examen práctico de react v.16
+GAPSI - Axel Obscura
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `yarn start`
 
